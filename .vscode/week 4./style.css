@@ -1,0 +1,56 @@
+/* Apply a border to all elements using the universal selector */
+* {
+  border: 1px solid #ccc;
+}
+
+/* Style the header */
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Style the main content */
+main {
+  margin: 20px;
+}
+
+/* Style the list items in the second section */
+#section2 ul li {
+  color: blue;
+}
+
+/* Style a sibling element of the list */
+#section2 p + a {
+  font-weight: bold;
+}
+
+/* Apply styling to the element with class 'special' when hovered */
+a:hover {
+  color: red;
+}
+
+/* Chain a class selector onto an element selector */
+nav ul.menu {
+  list-style-type: none;
+}
+
+/* Group two or more selectors */
+h1, h2 {
+  text-decoration: underline;
+}
+
+/* Apply padding and margin to specific elements */
+section {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* Apply padding and margin only on certain sides of some elements */
+footer {
+  padding: 5px 10px;
+  margin-top: 20px;
+  background-color: #333;
+  color: white;
+}
